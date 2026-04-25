@@ -5,7 +5,7 @@ AI-powered road quality assessment using **Roboflow Workflow inference** (`infer
 ## Project Structure
 
 ```
-pothole_ai_project/
+pothole-detection/
 ├── models/
 ├── detection/
 │   ├── detect_image.py    # Image pothole detection via Roboflow Workflow
