@@ -1,0 +1,50 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+
+# ---------------------------
+# Virtual environments
+# ---------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ---------------------------
+# Secrets / local configs
+# ---------------------------
+.env
+.env.*
+.streamlit/secrets.toml
+
+# ---------------------------
+# OS / Editor
+# ---------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ---------------------------
+# Build / runtime artifacts
+# ---------------------------
+*.log
+
+# Outputs (generated)
+outputs/images/
+outputs/graphs/
+outputs/reports/
+
+# Keep repo structure but ignore generated content
+!outputs/**/.gitkeep
+
+# Raw inference JSON can contain sensitive metadata
+outputs/reports/raw_inference_result.json
+
